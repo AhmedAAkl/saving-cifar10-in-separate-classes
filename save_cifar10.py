@@ -201,3 +201,4 @@ for image,label in zip(images,labels):
     image = image.transpose([1,2,0])
     class_label[label]('test',image,i)
     i += 1
+print('All files saved correctly.')
